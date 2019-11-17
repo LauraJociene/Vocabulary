@@ -11,6 +11,7 @@ namespace Vocabulary
 
             MenuController menu = new MenuController();
             menu.DisplayMainMenu();
+            
 
         }
     }
