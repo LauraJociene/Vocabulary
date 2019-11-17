@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data.SqlClient;
+using Vocabulary.Controller;
 
 namespace Vocabulary
 {
@@ -6,7 +8,10 @@ namespace Vocabulary
     {
         static void Main(string[] args)
         {
-           
+
+            MenuController menu = new MenuController();
+            menu.DisplayMainMenu();
+
         }
     }
 }
